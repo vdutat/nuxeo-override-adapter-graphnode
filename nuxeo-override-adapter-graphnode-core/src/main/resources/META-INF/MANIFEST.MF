@@ -1,0 +1,9 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: com.acme.routing.adapter
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-override-adapter-graphnode-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.acme.routing.adapter.nuxeo-override-adapter-graphnode-core;singleton=true
+Nuxeo-Component: OSGI-INF/overridegraphnodeadapter-contrib.xml

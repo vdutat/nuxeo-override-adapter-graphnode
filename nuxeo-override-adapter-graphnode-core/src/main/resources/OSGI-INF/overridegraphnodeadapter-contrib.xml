@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<component name="com.acme.routing.adapter.overridegraphnodeadapter">
+
+  <require>org.nuxeo.ecm.platform.routing.adapter</require>
+
+  <extension point="adapters" target="org.nuxeo.ecm.core.api.DocumentAdapterService">
+
+    <adapter class="org.nuxeo.ecm.platform.routing.api.DocumentRoute"
+      factory="com.acme.routing.adapter.CustomDocumentRouteAdapterFactory" />
+    <adapter class="org.nuxeo.ecm.platform.routing.api.DocumentRouteElement"
+      factory="com.acme.routing.adapter.CustomDocumentRouteAdapterFactory" />
+    <adapter class="org.nuxeo.ecm.platform.routing.core.impl.GraphNode"
+      factory="com.acme.routing.adapter.CustomDocumentRouteAdapterFactory" />
+    <adapter class="org.nuxeo.ecm.platform.routing.core.impl.GraphRoute"
+      factory="com.acme.routing.adapter.CustomDocumentRouteAdapterFactory"/>
+
+  </extension>
+
+</component>
